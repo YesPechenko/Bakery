@@ -1,0 +1,148 @@
+*
+{
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    font-family: "Alegreya", "Playfair+Display", "Arial", sans-serif;
+    font-weight: 400;
+
+    color: #56534c;
+    background: #fdfdfb;
+}
+
+.clearfix::after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.site-wrapper{
+    box-sizing: border-box;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.header-wrapper {
+    width: 1600px;
+    height: 900px;
+    background-image: url("../img/header.jpg");
+    background-color: #959ba7;
+}
+.header-top{
+    padding-top: 27px;
+    background-color: rgba(86, 83, 76, 0.529);
+}
+.header-logo {
+    float: left;
+    margin-left: 170px;
+}
+.header-menu{
+    float: left;
+    padding-left: 104px;
+}
+.header-menu li{
+    float: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-type: none;
+}
+.header-menu li a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.header-menu li a:hover{
+    color: #000000;
+}
+.header-menu li:not(:last-child)::after {
+    margin-left: 40px;
+    margin-right: 40px;
+    content: "~";
+    color: #ffffff;
+}
+
+.header-icon{
+    float: right;
+    margin-right: 170px;
+    padding-top: 16px;
+}
+.icon-tw{
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 29px;
+    text-decoration: none;
+    background-image: url(../img/spritesheet2.png);
+    background-repeat: no-repeat;
+    background-position: -279px -5px;
+}
+.icon-fb{
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-right: 29px;
+    text-decoration: none;
+    background-image: url(../img/spritesheet2.png);
+    background-repeat: no-repeat;
+    background-position: -236px -5px;
+}
+.icon-in{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    text-decoration: none;
+    background-image: url(../img/spritesheet2.png);
+    background-repeat: no-repeat;
+    background-position: -253px -5px;
+}
+.header-bottom{
+    position: relative;
+    color: #ffffff;
+    margin-left: 418px;
+    margin-top: 196px;
+}
+h1{
+   font-family: "Playfair+Display";
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 24px;
+}
+h1::after{
+    content: "";
+    background-image: url(../img/dashed_line.png);
+}
+.header-quote{
+    width: 450px;
+    margin-top: 132px;
+    margin-bottom: 62px;
+    margin-left: 80px;
+    font-family: "ProximaNova";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.header-bottom a{
+    margin-left: 209px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgba(86, 83, 76, 0.529);
+    border: 2px  dashed #9e9c93;
+}

@@ -20,7 +20,12 @@ body
 
     content: '';
 }
-
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
 .site-wrapper{
     box-sizing: border-box;
     width: 1600px;
@@ -35,16 +40,18 @@ body
     background-color: #959ba7;
 }
 .header-top{
-    padding-top: 27px;
+
     background-color: rgba(86, 83, 76, 0.529);
 }
 .header-logo {
     float: left;
     margin-left: 170px;
+    padding-top: 17px;
 }
 .header-menu{
     float: left;
     padding-left: 104px;
+    padding-top: 3px;
 }
 .header-menu li{
     float: left;
@@ -72,14 +79,14 @@ body
 
 .header-icon{
     float: right;
-    margin-right: 170px;
-    padding-top: 16px;
+    margin-right: 167px;
+    padding-top: 21px;
 }
 .icon-tw{
     display: inline-block;
     width: 15px;
     height: 13px;
-    margin-right: 29px;
+    margin-right: 24px;
     text-decoration: none;
     background-image: url(../img/spritesheet2.png);
     background-repeat: no-repeat;
@@ -89,7 +96,7 @@ body
     display: inline-block;
     width: 8px;
     height: 14px;
-    margin-right: 29px;
+    margin-right: 25px;
     text-decoration: none;
     background-image: url(../img/spritesheet2.png);
     background-repeat: no-repeat;
@@ -108,13 +115,14 @@ body
     position: relative;
     color: #ffffff;
     margin-left: 418px;
-    margin-top: 196px;
+    margin-top: 242px;
 }
 h1{
    font-family: "Playfair+Display";
     font-size: 92px;
     font-weight: 700;
     line-height: 24px;
+    letter-spacing: 9px;
 }
 h1::after{
     content: "";
@@ -122,17 +130,18 @@ h1::after{
 }
 .header-quote{
     width: 450px;
-    margin-top: 132px;
-    margin-bottom: 62px;
+    margin-top: 163px;
+    margin-bottom: 78px;
     margin-left: 80px;
     font-family: "ProximaNova";
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+    letter-spacing: 1px;
     text-align: center;
 }
 .header-bottom a{
-    margin-left: 209px;
+    margin-left: 282px;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 15px;
@@ -140,9 +149,50 @@ h1::after{
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
+    letter-spacing: 4px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
     background-color: rgba(86, 83, 76, 0.529);
     border: 2px  dashed #9e9c93;
+}
+.block-sandwich {
+    width: 1600px;
+    height: 1020px;
+    background-image: url("../img/vektor-smartobjekt.png");
+    background-color: #f3f1e9;
+}
+.block-sandwich h2 {
+    padding-top: 100px;
+    margin-left: 571px;
+}
+.statement{
+    margin-left: 634px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #a47d5e;
+}
+.ingredient {
+
+    min-width: 200px;
+    margin-left: 236px;
+    margin-top: 116px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #a47d5e;
+}
+.ingredient-citation {
+    float: left;
+    min-width: 289px;
+    margin-left: 171px;
+    margin-top: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
 }
